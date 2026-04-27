@@ -1,46 +1,15 @@
-# Trotterization Week-1 Starter
+# Trotterization audit numerical artifacts
 
-This repository now contains a minimal, runnable toy experiment for:
+This repository contains the code, numerical outputs, fitted summaries, and plotting scripts used during the preparation of the manuscript:
 
-- 1+1D `Z2` Hamiltonian lattice gauge dynamics on very small systems
-- exact real-time evolution vs first-order and second-order Trotter
-- basic scaling diagnostics in timestep `dt`
+"Observable-level Trotter audits for Hamiltonian lattice gauge dynamics"
 
-## What is implemented
+The code is provided as a research artifact rather than a polished software package. It is intended to document the calculations behind the manuscript and to make the generated data available for inspection. Some scripts may require local path adjustments or minor cleanup before being rerun in a fresh environment.
 
-- Dense-matrix toy `Z2` model (`z2_trotter/model.py`)
-- Initial state helpers (`z2_trotter/states.py`)
-- Exact and Trotter evolution (`z2_trotter/evolution.py`)
-- Observable and error metrics (`z2_trotter/metrics.py`)
-- One command-line scan script (`run_week1_scan.py`)
+Main contents:
 
-## Quick start
+- `z2_trotter/`: helper code for the Z2 Hamiltonian model, product-formula evolution, observables, and splits.
+- `results/`: numerical outputs, fitted summaries, markdown reports, and generated figures.
+- `*.py`: scan, analysis, and figure-generation scripts used during the project.
 
-```powershell
-python -m venv .venv
-.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-python run_week1_scan.py --n-sites 4 --g-values 1.0 --dts 0.4,0.2,0.1,0.05 --t-final 2.0
-```
-
-Outputs:
-
-- `results/week1_scan.csv`
-- `results/week1_summary.txt`
-
-The default initial condition is a gauge-sector product state:
-
-- matter in a Neel `Z` pattern
-- links in `X+`
-
-The default observable is `h_hop_density`. You can switch with:
-
-```powershell
-python run_week1_scan.py --observable staggered_magnetization
-python run_week1_scan.py --observable electric_density
-```
-
-## Notes
-
-- This is a dense linear algebra baseline intended for small sizes (`n_sites <= 4`).
-- It is designed to establish the first signal quickly before moving to larger-scale sparse/Krylov workflows.
+For questions about the data or scripts, please contact me.
