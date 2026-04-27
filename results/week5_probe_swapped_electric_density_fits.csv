@@ -1,0 +1,17 @@
+n_sites,backend,split,j,g,m,initial_state,t_target,observable_name,method,metric,slope,prefactor,points
+3,dense,swapped,1.0,1.0,0.5,neel_x,0.5,electric_density,trotter1,observable_error,2.0742192799278554,0.5022872969693585,4
+3,dense,swapped,1.0,1.0,0.5,neel_x,0.5,electric_density,trotter1,state_error,0.9368503572778074,0.9422196814105297,4
+3,dense,swapped,1.0,1.0,0.5,neel_x,0.5,electric_density,trotter2,observable_error,1.969091354996099,0.7008046708321636,4
+3,dense,swapped,1.0,1.0,0.5,neel_x,0.5,electric_density,trotter2,state_error,2.0448244613921687,0.9815838863372162,4
+3,dense,swapped,1.0,1.0,0.5,neel_x,1.0,electric_density,trotter1,observable_error,2.076419239728729,0.9374513360206755,4
+3,dense,swapped,1.0,1.0,0.5,neel_x,1.0,electric_density,trotter1,state_error,0.9431999509737282,1.076029274028319,4
+3,dense,swapped,1.0,1.0,0.5,neel_x,1.0,electric_density,trotter2,observable_error,2.005193612880119,0.7708898205402386,4
+3,dense,swapped,1.0,1.0,0.5,neel_x,1.0,electric_density,trotter2,state_error,2.0370144760009397,0.8283289368128597,4
+3,dense,swapped,1.0,1.0,0.5,uniform_x,0.5,electric_density,trotter1,observable_error,2.0576205016207134,0.27619382015421357,4
+3,dense,swapped,1.0,1.0,0.5,uniform_x,0.5,electric_density,trotter1,state_error,0.9647672152965583,0.7776477644349107,4
+3,dense,swapped,1.0,1.0,0.5,uniform_x,0.5,electric_density,trotter2,observable_error,1.9864362885325222,0.4252623182947915,4
+3,dense,swapped,1.0,1.0,0.5,uniform_x,0.5,electric_density,trotter2,state_error,2.062000923287083,0.6985900006239294,4
+3,dense,swapped,1.0,1.0,0.5,uniform_x,1.0,electric_density,trotter1,observable_error,2.0068569182223994,0.48672042711645186,4
+3,dense,swapped,1.0,1.0,0.5,uniform_x,1.0,electric_density,trotter1,state_error,0.9472770948817146,0.8177424224695592,4
+3,dense,swapped,1.0,1.0,0.5,uniform_x,1.0,electric_density,trotter2,observable_error,2.0132464906093688,0.6053280190216684,4
+3,dense,swapped,1.0,1.0,0.5,uniform_x,1.0,electric_density,trotter2,state_error,2.027006873962485,0.6223945547180781,4

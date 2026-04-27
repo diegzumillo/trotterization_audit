@@ -1,0 +1,41 @@
+Week-2 scan summary (2026-04-25T21:20:37)
+
+n_sites=4, g=1, state=neel_x, observable=h_hop_density, split=swapped, backend=dense
+  t_target=0.5
+    trotter1 observable_error ~= 1.781e-01 * dt^0.533 (points=4)
+    trotter1 state_error ~= 1.055e+00 * dt^0.925 (points=4)
+    trotter2 observable_error ~= 7.063e-01 * dt^2.155 (points=4)
+    trotter2 state_error ~= 1.128e+00 * dt^2.043 (points=4)
+
+  t_target=1
+    trotter1 observable_error ~= 3.044e-01 * dt^1.017 (points=4)
+    trotter1 state_error ~= 1.222e+00 * dt^0.922 (points=4)
+    trotter2 observable_error ~= 4.963e-01 * dt^2.218 (points=4)
+    trotter2 state_error ~= 9.601e-01 * dt^2.024 (points=4)
+
+n_sites=4, g=1, state=uniform_x, observable=h_hop_density, split=swapped, backend=dense
+  t_target=0.5
+    trotter1 observable_error ~= 3.469e-01 * dt^0.784 (points=4)
+    trotter1 state_error ~= 8.008e-01 * dt^0.986 (points=4)
+    trotter2 observable_error ~= 1.010e-01 * dt^2.242 (points=4)
+    trotter2 state_error ~= 5.332e-01 * dt^2.058 (points=4)
+
+  t_target=1
+    trotter1 observable_error ~= 1.001e+00 * dt^2.929 (points=4)
+    trotter1 state_error ~= 9.537e-01 * dt^0.974 (points=4)
+    trotter2 observable_error ~= 9.695e-02 * dt^2.399 (points=4)
+    trotter2 state_error ~= 5.998e-01 * dt^2.024 (points=4)
+
+Global defect-predictor correlations (log-log Pearson)
+  trotter1: r=0.6126 using 16 points
+  trotter2: r=0.8089 using 16 points
+
+Time-resolved defect-predictor correlations (log-log Pearson)
+  t_target=0.5
+    trotter1: r=0.8188 using 8 points
+    trotter2: r=0.7341 using 8 points
+
+  t_target=1
+    trotter1: r=0.8946 using 8 points
+    trotter2: r=0.8802 using 8 points
+

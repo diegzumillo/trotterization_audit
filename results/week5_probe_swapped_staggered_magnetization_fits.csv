@@ -1,0 +1,17 @@
+n_sites,backend,split,j,g,m,initial_state,t_target,observable_name,method,metric,slope,prefactor,points
+3,dense,swapped,1.0,1.0,0.5,neel_x,0.5,staggered_magnetization,trotter1,observable_error,2.063229280697927,0.73274861512066,4
+3,dense,swapped,1.0,1.0,0.5,neel_x,0.5,staggered_magnetization,trotter1,state_error,0.9368503572778074,0.9422196814105297,4
+3,dense,swapped,1.0,1.0,0.5,neel_x,0.5,staggered_magnetization,trotter2,observable_error,2.0024924954072283,1.097050596344044,4
+3,dense,swapped,1.0,1.0,0.5,neel_x,0.5,staggered_magnetization,trotter2,state_error,2.0448244613921687,0.9815838863372162,4
+3,dense,swapped,1.0,1.0,0.5,neel_x,1.0,staggered_magnetization,trotter1,observable_error,2.0248527436337844,0.6767819161870161,4
+3,dense,swapped,1.0,1.0,0.5,neel_x,1.0,staggered_magnetization,trotter1,state_error,0.9431999509737282,1.076029274028319,4
+3,dense,swapped,1.0,1.0,0.5,neel_x,1.0,staggered_magnetization,trotter2,observable_error,2.10955369611115,0.4562465662270577,4
+3,dense,swapped,1.0,1.0,0.5,neel_x,1.0,staggered_magnetization,trotter2,state_error,2.0370144760009397,0.8283289368128597,4
+3,dense,swapped,1.0,1.0,0.5,uniform_x,0.5,staggered_magnetization,trotter1,observable_error,2.1040516289914906,0.306524937309077,4
+3,dense,swapped,1.0,1.0,0.5,uniform_x,0.5,staggered_magnetization,trotter1,state_error,0.9647672152965583,0.7776477644349107,4
+3,dense,swapped,1.0,1.0,0.5,uniform_x,0.5,staggered_magnetization,trotter2,observable_error,1.967680717243917,0.3936413775933983,4
+3,dense,swapped,1.0,1.0,0.5,uniform_x,0.5,staggered_magnetization,trotter2,state_error,2.062000923287083,0.6985900006239294,4
+3,dense,swapped,1.0,1.0,0.5,uniform_x,1.0,staggered_magnetization,trotter1,observable_error,2.109758059265275,0.1716357579945467,4
+3,dense,swapped,1.0,1.0,0.5,uniform_x,1.0,staggered_magnetization,trotter1,state_error,0.9472770948817146,0.8177424224695592,4
+3,dense,swapped,1.0,1.0,0.5,uniform_x,1.0,staggered_magnetization,trotter2,observable_error,2.0382720950612065,0.12163958069935696,4
+3,dense,swapped,1.0,1.0,0.5,uniform_x,1.0,staggered_magnetization,trotter2,state_error,2.027006873962485,0.6223945547180781,4

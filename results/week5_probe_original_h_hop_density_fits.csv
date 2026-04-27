@@ -1,0 +1,17 @@
+n_sites,backend,split,j,g,m,initial_state,t_target,observable_name,method,metric,slope,prefactor,points
+3,dense,original,1.0,1.0,0.5,neel_x,0.5,h_hop_density,trotter1,observable_error,1.2691751998736889,1.3584027332944433,4
+3,dense,original,1.0,1.0,0.5,neel_x,0.5,h_hop_density,trotter1,state_error,1.0445575298777259,1.2815131278753749,4
+3,dense,original,1.0,1.0,0.5,neel_x,0.5,h_hop_density,trotter2,observable_error,2.3130490256620435,0.08255246996050175,4
+3,dense,original,1.0,1.0,0.5,neel_x,0.5,h_hop_density,trotter2,state_error,2.086768478385919,0.7505245809566723,4
+3,dense,original,1.0,1.0,0.5,neel_x,1.0,h_hop_density,trotter1,observable_error,-0.04648297669795958,0.025215994805567434,4
+3,dense,original,1.0,1.0,0.5,neel_x,1.0,h_hop_density,trotter1,state_error,1.0316243948216168,1.3930321451991334,4
+3,dense,original,1.0,1.0,0.5,neel_x,1.0,h_hop_density,trotter2,observable_error,1.9140487067438534,0.4621731560950822,4
+3,dense,original,1.0,1.0,0.5,neel_x,1.0,h_hop_density,trotter2,state_error,2.066495023498445,0.8773370402425474,4
+3,dense,original,1.0,1.0,0.5,uniform_x,0.5,h_hop_density,trotter1,observable_error,1.166026889199768,1.0191694943783969,4
+3,dense,original,1.0,1.0,0.5,uniform_x,0.5,h_hop_density,trotter1,state_error,1.0481854376879567,0.9877517613912197,4
+3,dense,original,1.0,1.0,0.5,uniform_x,0.5,h_hop_density,trotter2,observable_error,2.590814616600377,0.1327190254364678,4
+3,dense,original,1.0,1.0,0.5,uniform_x,0.5,h_hop_density,trotter2,state_error,2.0814425373589946,0.5073602064628505,4
+3,dense,original,1.0,1.0,0.5,uniform_x,1.0,h_hop_density,trotter1,observable_error,1.5025979124470141,0.5286610962231351,4
+3,dense,original,1.0,1.0,0.5,uniform_x,1.0,h_hop_density,trotter1,state_error,1.0455434526312675,1.0840359524634464,4
+3,dense,original,1.0,1.0,0.5,uniform_x,1.0,h_hop_density,trotter2,observable_error,1.9275344393844065,0.14486904523233463,4
+3,dense,original,1.0,1.0,0.5,uniform_x,1.0,h_hop_density,trotter2,state_error,2.0342023361679153,0.5421403253255606,4

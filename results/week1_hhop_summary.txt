@@ -1,0 +1,38 @@
+Week-1 scan summary (2026-04-23T15:24:16)
+
+n_sites=3, g=0.5, m=0.5, j=1, observable=h_hop_density
+  trotter1 observable_error ~= 3.591e-02 * dt^0.830 (points=5)
+  trotter1 state_error ~= 1.012e+00 * dt^1.072 (points=5)
+  trotter2 observable_error ~= 1.076e-02 * dt^1.301 (points=5)
+  trotter2 state_error ~= 8.897e-01 * dt^2.014 (points=5)
+
+n_sites=3, g=1, m=0.5, j=1, observable=h_hop_density
+  trotter1 observable_error ~= 4.422e-01 * dt^1.016 (points=5)
+  trotter1 state_error ~= 1.092e+00 * dt^1.034 (points=5)
+  trotter2 observable_error ~= 3.817e-01 * dt^1.967 (points=5)
+  trotter2 state_error ~= 9.583e-01 * dt^2.053 (points=5)
+
+n_sites=3, g=1.5, m=0.5, j=1, observable=h_hop_density
+  trotter1 observable_error ~= 2.492e-01 * dt^0.930 (points=5)
+  trotter1 state_error ~= 1.650e+00 * dt^1.075 (points=5)
+  trotter2 observable_error ~= 5.444e-01 * dt^1.852 (points=5)
+  trotter2 state_error ~= 1.474e+00 * dt^2.040 (points=5)
+
+n_sites=4, g=0.5, m=0.5, j=1, observable=h_hop_density
+  trotter1 observable_error ~= 9.662e-02 * dt^0.842 (points=5)
+  trotter1 state_error ~= 1.272e+00 * dt^1.059 (points=5)
+  trotter2 observable_error ~= 2.055e-01 * dt^1.915 (points=5)
+  trotter2 state_error ~= 9.406e-01 * dt^2.009 (points=5)
+
+n_sites=4, g=1, m=0.5, j=1, observable=h_hop_density
+  trotter1 observable_error ~= 6.687e-01 * dt^1.055 (points=5)
+  trotter1 state_error ~= 1.325e+00 * dt^1.034 (points=5)
+  trotter2 observable_error ~= 5.096e-01 * dt^1.975 (points=5)
+  trotter2 state_error ~= 1.186e+00 * dt^2.050 (points=5)
+
+n_sites=4, g=1.5, m=0.5, j=1, observable=h_hop_density
+  trotter1 observable_error ~= 2.430e-01 * dt^0.949 (points=5)
+  trotter1 state_error ~= 1.766e+00 * dt^1.046 (points=5)
+  trotter2 observable_error ~= 5.625e-01 * dt^1.862 (points=5)
+  trotter2 state_error ~= 1.603e+00 * dt^2.042 (points=5)
+

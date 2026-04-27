@@ -1,0 +1,15 @@
+# Paper draft
+template.tex
+references.bib
+revision_guide.docx
+
+# Personal notes
+overview.md
+paper_proposal.md
+week*_plan.md
+week5_increasingscope.md
+
+# IDE / tooling
+.claude/
+__pycache__/
+z2_trotter/__pycache__/

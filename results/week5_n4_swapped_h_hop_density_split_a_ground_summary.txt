@@ -1,0 +1,28 @@
+Week-2 scan summary (2026-04-25T21:20:29)
+
+n_sites=4, g=1, state=split_a_ground, observable=h_hop_density, split=swapped, backend=dense
+  t_target=0.5
+    trotter1 observable_error ~= 3.278e-01 * dt^2.048 (points=4)
+    trotter1 state_error ~= 1.068e+00 * dt^1.057 (points=4)
+    trotter2 observable_error ~= 3.278e-01 * dt^2.048 (points=4)
+    trotter2 state_error ~= 7.240e-01 * dt^2.064 (points=4)
+
+  t_target=1
+    trotter1 observable_error ~= 3.968e-01 * dt^2.004 (points=4)
+    trotter1 state_error ~= 1.014e+00 * dt^1.035 (points=4)
+    trotter2 observable_error ~= 3.968e-01 * dt^2.004 (points=4)
+    trotter2 state_error ~= 7.859e-01 * dt^2.037 (points=4)
+
+Global defect-predictor correlations (log-log Pearson)
+  trotter1: r=0.9655 using 8 points
+  trotter2: r=0.7118 using 8 points
+
+Time-resolved defect-predictor correlations (log-log Pearson)
+  t_target=0.5
+    trotter1: r=0.9999 using 4 points
+    trotter2: r=0.9999 using 4 points
+
+  t_target=1
+    trotter1: r=1.0000 using 4 points
+    trotter2: r=1.0000 using 4 points
+

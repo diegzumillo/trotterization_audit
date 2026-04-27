@@ -1,0 +1,9 @@
+n_sites,backend,split,j,g,m,initial_state,t_target,observable_name,method,metric,slope,prefactor,points
+3,dense,swapped,1.0,1.0,0.5,split_a_ground,0.5,h_hop_density,trotter1,observable_error,2.121629804620428,0.7495062404248932,4
+3,dense,swapped,1.0,1.0,0.5,split_a_ground,0.5,h_hop_density,trotter1,state_error,1.0327821309699374,0.9422140512365828,4
+3,dense,swapped,1.0,1.0,0.5,split_a_ground,0.5,h_hop_density,trotter2,observable_error,2.121629804620534,0.7495062404249924,4
+3,dense,swapped,1.0,1.0,0.5,split_a_ground,0.5,h_hop_density,trotter2,state_error,2.1160811350007522,0.7364257044182364,4
+3,dense,swapped,1.0,1.0,0.5,split_a_ground,1.0,h_hop_density,trotter1,observable_error,2.136223933501697,0.6230364140599834,4
+3,dense,swapped,1.0,1.0,0.5,split_a_ground,1.0,h_hop_density,trotter1,state_error,1.0363570816957912,0.9583034751743845,4
+3,dense,swapped,1.0,1.0,0.5,split_a_ground,1.0,h_hop_density,trotter2,observable_error,2.136223933501906,0.6230364140601433,4
+3,dense,swapped,1.0,1.0,0.5,split_a_ground,1.0,h_hop_density,trotter2,state_error,2.1081075759219554,0.648031772369339,4

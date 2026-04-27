@@ -1,0 +1,21 @@
+split,observable,comm_ha_norm,nested_norm,state_expectation_abs_max,neel_x_expectation_abs,uniform_x_expectation_abs,domain_wall_x_expectation_abs,class
+original,h_hop_density,11.313708498984747,0.0,0.0,0.0,0.0,0.0,leading-defect sensitive
+original,electric_density,0.0,22.627416997969494,0.0,0.0,0.0,0.0,state-suppressed blind
+original,staggered_magnetization,0.0,36.95041722813601,0.0,0.0,0.0,0.0,state-suppressed blind
+original,mass_density,0.0,18.475208614068006,0.0,0.0,0.0,0.0,state-suppressed blind
+original,total_energy_density,11.313708498984747,39.19183588453083,0.0,0.0,0.0,0.0,leading-defect sensitive
+swapped,h_hop_density,0.0,31.999999999999964,7.999999999999995,7.999999999999995,5.33333333333333,5.33333333333333,algebraically suppressed but state-sensitive
+swapped,electric_density,9.237604307034003,0.0,0.0,0.0,0.0,0.0,leading-defect sensitive
+swapped,staggered_magnetization,13.063945294843611,0.0,0.0,0.0,0.0,0.0,leading-defect sensitive
+swapped,mass_density,6.531972647421806,0.0,0.0,0.0,0.0,0.0,leading-defect sensitive
+swapped,total_energy_density,11.313708498984747,31.999999999999964,7.999999999999995,7.999999999999995,5.33333333333333,5.33333333333333,leading-defect sensitive
+electric_isolated,h_hop_density,9.237604307034003,13.063945294843611,0.0,0.0,0.0,0.0,leading-defect sensitive
+electric_isolated,electric_density,0.0,18.475208614068006,0.0,0.0,0.0,0.0,state-suppressed blind
+electric_isolated,staggered_magnetization,0.0,26.127890589687222,0.0,0.0,0.0,0.0,state-suppressed blind
+electric_isolated,mass_density,0.0,13.063945294843611,0.0,0.0,0.0,0.0,state-suppressed blind
+electric_isolated,total_energy_density,9.237604307034003,18.475208614068006,0.0,0.0,0.0,0.0,leading-defect sensitive
+mass_isolated,h_hop_density,6.531972647421806,13.063945294843611,0.0,0.0,0.0,0.0,leading-defect sensitive
+mass_isolated,electric_density,0.0,13.063945294843611,0.0,0.0,0.0,0.0,state-suppressed blind
+mass_isolated,staggered_magnetization,0.0,26.127890589687222,0.0,0.0,0.0,0.0,state-suppressed blind
+mass_isolated,mass_density,0.0,13.063945294843611,0.0,0.0,0.0,0.0,state-suppressed blind
+mass_isolated,total_energy_density,6.531972647421806,13.063945294843611,0.0,0.0,0.0,0.0,leading-defect sensitive
